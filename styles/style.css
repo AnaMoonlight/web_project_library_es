@@ -336,22 +336,15 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  position: relative;
   color: #ffffff;
   background-color: #1f1f1f;
-}
-
-.footer__cover {
-  width: 100%;
-  position: relative;
+  padding: 60px 80px 60px 80px;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-}
-
-.footer__column {
-  display: flex;
 }
 
 .footer__column_content_hours {
